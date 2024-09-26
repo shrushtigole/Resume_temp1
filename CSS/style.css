@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+
+body{
+    padding: 0px;
+    margin: 0px;
+    font-family: "Lato", sans-serif;
+}
+
+.header{
+   background-color: #1D4E79; 
+   color: white;
+   padding: 40px 70px 20px 70px;
+   display: flex;
+}
+.objective{
+    padding-right: 70px;
+}
+.objective>h1{
+    font-size: 50px;
+    margin: 0px;
+}
+.objective>h3{
+    font-size: 30px;
+    margin: 0px;
+    font-weight: normal;
+}
+.objective>p{
+    font-size: 20px;
+    padding-left: 10px;
+    margin-inline-start: auto;
+}
+
+.contact_details{
+    display: flex;
+    gap: 20px;
+}
+.contact_details>div{
+    display: flex;
+    font-size: 20px;
+    gap: 8px;
+}
+.contact_details>div>i{
+    padding-top: 23px;
+}
+.header>img{
+    border: 2px solid white;
+    padding-bottom: 0px;
+}
+
+/* Experience */
+.Experience{
+    margin-right: 70px;
+}
+.Experience>h3{
+    background-color: #1D4E79;
+    color: white;
+    width: 400px;
+    font-size: 30px;
+    font-weight: normal;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 0px;
+}
+.Experience>hr{
+    margin: 0px;
+}
+.work_experince{
+    display: flex;
+    gap: 30px;
+    font-size: 20px;
+    padding-left: 70px;
+    padding-bottom: 0px;
+}
+.work_experince>div>h4{
+    margin-bottom: 0px;
+}
+.work_experince>div>p{
+    margin-top: 0px;
+}
+.job_title{
+    width: 220px;
+    text-align: right;
+}
+
+
+/* Education */
+.education{
+   margin-right: 70px; 
+}
+.education>h3{
+    background-color: #1D4E79;
+    color: white;
+    width: 400px;
+    font-size: 30px;
+    font-weight: normal;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 0px;
+}
+.education>hr{
+    margin: 0px;
+}
+.course{
+    display: flex;
+    gap: 30px;
+    font-size: 20px;
+    padding-left: 70px;
+    padding-bottom: 0px;
+}
+.course>div>h4{
+    margin-bottom: 0px;
+}
+.course>div>p{
+    margin-top: 0px;
+}
+.institution{
+    width: 220px;
+    text-align: right;
+}
+
+
+/* Communication */
+.communicate{
+    margin-right: 70px;
+}
+.communicate>h3{
+    background-color: #1D4E79;
+    color: white;
+    width: 400px;
+    font-size: 30px;
+    font-weight: normal;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 0px;
+}
+.communicate>hr{
+    margin: 0px;
+}
+.communicate>p{
+    font-size: 20px;
+    padding-left: 70px; 
+}
+
